@@ -1,0 +1,110 @@
+
+/*External*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/*---------------------------------------------------*/
+/* Global */
+
+/* Fonts */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+/* Spacing */
+
+.full-height {
+    height: 100vh;
+}
+
+
+/*---------------------------------------------------*/
+/* Components */
+
+button {
+    border: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #18382b;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+/* Bootstrap Component Overrides */
+
+/* Carousel */
+
+.carousel-item {
+    background-color: #e6f2e9;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: auto;
+    right: auto;
+    left: 24px;
+    bottom: 24px;
+    width: auto;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+
+}
+
+.carousel-control-next {
+    left: 84px;
+}
+
+
+.hero-image {
+    height: 90vh;
+    position: relative;
+    bottom: -100px;
+}
+
+.carousel-img {
+    height: 90vh;
+    position: relative;
+    bottom: -100px; 
+}
+
+.accordion {
+    background-color: #e6f2e9;
+}
+
+.accordion-body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: #e6f2e9;
+}
+
+ .accordion-header {
+    background-color: #e6f2e9;
+    font-family: 'Libre Baskerville', serif;
+ }
+
+ .accordion-button {
+    background-color: #e6f2e9;
+    color: #18382b;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    
+ }
+
+ .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #18382b;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
